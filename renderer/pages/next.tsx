@@ -67,7 +67,7 @@ function Next() {
           topics.length > 0 && topics.map((topic, index) => {
             return (
               <>
-                <p onMouseLeave={() => setOpenPopper(false)} onMouseOver={() => handleMouseIn(topic)} key={index}>{topic}</p>
+                <p onMouseOver={() => handleMouseIn(topic)} key={index}>{topic}</p>
                 <Popper open={openPopper}>
                   {
                     displayTopic(selectedTopic, MOCK_DB)
