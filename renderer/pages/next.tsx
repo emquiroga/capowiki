@@ -44,6 +44,7 @@ function Next() {
           ⚡ Electron + Next.js ⚡ -
           <Link href="/home">
             <a>Go to home page</a>
+            
           </Link>
         </p>
       </div>
